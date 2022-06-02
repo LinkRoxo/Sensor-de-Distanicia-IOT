@@ -33,7 +33,7 @@ void loop() {
   delay(50);
     
 
-    if (distance > 20) {
+    if (distance > 15) {
       digitalWrite(LED1, HIGH);
         digitalWrite(LED2, LOW);
     } else {

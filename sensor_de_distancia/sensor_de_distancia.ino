@@ -34,15 +34,14 @@ void loop() {
     
 
     if (distance > 15) {
-      digitalWrite(LED1, HIGH);
-        digitalWrite(LED2, LOW);
+      digitalWrite(LED2, HIGH);
+        digitalWrite(LED1, LOW);
     } else {
-      digitalWrite(LED1, LOW);
-        digitalWrite(LED2, HIGH);
+      digitalWrite(LED2, LOW);
+        digitalWrite(LED1, HIGH);
     }
 
   
-  
-  
-   Serial.println(distance);
+ 
+    Serial.println(distance);
 }
